@@ -1,0 +1,91 @@
+ /* estilização do cabeçalho */
+ body{
+    background-color: rgb(215, 144, 187);
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Merriweather', serif;
+}
+header {
+    display: flex;
+    background-color: rgb(117, 60, 95);
+}
+.avatar img {
+    border:1px solid rgb(0, 0, 0) ;
+    border-radius: 50%; 
+    padding: 5%;
+    height: 110px;
+    width: 110px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.nome{
+    padding: 1%;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.texto{
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+margin-left: 80px;
+}
+/* estilização da navbar */
+.navbar{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    padding: 4%;
+    margin-top: 2%;
+}
+a {
+    text-decoration: none;
+    color: oldlace;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    color: blue;
+}
+/* estilização dos parágrafos */
+p {
+    text-align: center;
+    justify-content: center;
+    border-radius: 0%;
+    padding: 2%;
+    background-color: rgb(191, 136, 174);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.lista{
+    background-color: rgb(194, 114, 168);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* estilização do formulário */
+input[type="email"],
+textarea {
+    width: 70%;
+    padding: 12px;
+    margin: 1%;
+    box-sizing: border-box;
+    border-style:ridge;
+}
+.botao{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Merriweather', serif;
+    background-color: rgb(0, 0, 0);
+    border-radius: 1%;
+    color: oldlace;
+}
+.botao:hover{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Merriweather', serif;
+    background-color: oldlace;
+    border-radius: 1%;
+    color: rgb(0, 0, 0);
+}
